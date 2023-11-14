@@ -53,6 +53,7 @@ Route::prefix('tasks')
 Route::get('/tasks/{id}/edit', [TaskController::class, 'edit'])->name('tasks.edit');
 (object) [
 
+
     'id' => 1, // Id ini digunakan pada path untuk menspesifikasi task mana yang diubah
 
     'name' => 'Develop Final Project',
@@ -63,4 +64,8 @@ Route::get('/tasks/{id}/edit', [TaskController::class, 'edit'])->name('tasks.edi
 
     'status' => 'not_started',
 
+    
+
 ];
+
+
